@@ -2,19 +2,20 @@
 
 # Overview
 
-<-- {Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.} -->
-
-<-- {Provide a description of the software that you wrote to demonstrate the C++ language.} -->
+## Description
 
 I plan to write at least one piece of software to demonstrate my grasp of the C++ language. That project is a digital calculator.
 
-<-- {Describe your purpose for writing this software.} -->
+## Purpose
 
 My purpose is writing this software is to create a GUI of the most basic function that a computer is capable of, controlled by a user. Calculators are used by everyone in daily life, so I want to show that I can make my own as my first beginner project.
 
+<details>
 <-- {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.} -->
 
 <-- [Software Demo Video](http://youtube.link.goes.here) -->
+
+</details>
 
 # Development Environment
 
