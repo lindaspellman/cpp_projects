@@ -12,10 +12,20 @@
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
 #include <iostream>
+using namespace std; // makes std:: command obsolete 
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n"; //this will output to the console
+    cout << "My name is Linda."<<endl; // either this or \n will create a new line
+    cout << "Today is Thursday.\n";
+    cout << "Have a nice day"; 
+
+    float annualSalary = 50000.99
+
+
+
+    // need an empty space before system("pause>0)
     system("pause>0"); // gets rid of junk text which would appear without this line of code. Still, if you press a key, the junk code will appear. According to its instructions, you can press a key again to close the window
 
 }
