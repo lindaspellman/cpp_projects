@@ -21,11 +21,13 @@ int main()
     cout << "Today is Thursday.\n";
     cout << "Have a nice day"; 
 
-    float annualSalary = 50000.99
+    float annualSalary = 50000.99;
+    float monthlySalary = annualSalary / 12;
+    cout << "Your monthly salary is " << monthlySalary;
 
 
 
-    // need an empty space before system("pause>0)
+    // need an empty space before system("pause>0");
     system("pause>0"); // gets rid of junk text which would appear without this line of code. Still, if you press a key, the junk code will appear. According to its instructions, you can press a key again to close the window
 
 }
