@@ -2,10 +2,12 @@
 //
 
 #include <iostream>
+using namespace std; // makes std:: command obsolete 
 
 int main()
 {
-
+    cout << (int)'a' << endl; // casting operator - makes the letter to its ASCII number equivalent
+    cout << int('a') << endl;
 
     system("pause>0");
 
