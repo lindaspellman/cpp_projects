@@ -16,15 +16,54 @@ using namespace std; // makes std:: command obsolete
 
 int main()
 {
+    // be meaningful with variable names
+    // can't use operator/special symbols or blank spaces in variable names or use numerals at beginning of variable names
+    // can use underscores
+    // use camelCase
+    // 
+    // strings take double quotations
     cout << "Hello World!\n"; //this will output to the console
-    cout << "My name is Linda."<<endl; // either this or \n will create a new line
+    cout << "My name is Linda." << endl; // either this or \n will create a new line
     cout << "Today is Thursday.\n";
-    cout << "Have a nice day"; 
+    cout << "Have a nice day\n";
 
-    float annualSalary = 50000.99;
+    float annualSalary;
+    cout << "Please enter your annual salary: ";
+    cin >> annualSalary;
     float monthlySalary = annualSalary / 12;
-    cout << "Your monthly salary is " << monthlySalary;
+    cout << "Your monthly salary is " << monthlySalary << endl;
+    cout << "In ten years, you will earn: " << annualSalary * 10;
 
+    // char must use single quotations
+    char character = 'a';
+
+    int yearOfBirth = 1995;
+    char gender = 'f';
+    bool isOlderThan18 = true;
+    // float takes 4 bytes of memory
+    float averageGrade = 4.5;
+    // double takes 8 bytes of memory
+    double balance = 3894723984;
+
+    //cout << "Size of int is " << sizeof(int) << " bytes\n";
+    // -1, -2, -3,..., -2147483648
+    //cout << "Int min value is " << INT_MIN << endl;
+    // 0, +1, +2, +3,..., +2147483647 
+    //cout << "Int max value is " << INT_MAX << endl;
+    // 4 bytes
+    //cout << "Size of unsigned int is " << sizeof(unsigned int) << " bytes\n";
+    // 4294967295
+    //cout << "UINT max value is " << UINT_MAX << endl;
+    //cout << "Size of bool is " << sizeof(bool) << " bytes\n";
+    //cout << "Size of char is " << sizeof(char) << " bytes\n";
+    //cout << "Size of float is " << sizeof(float) << " bytes\n";
+    //cout << "Size of double is " << sizeof(double) << " bytes\n";
+
+    // datatype overflow
+    //int intMax = INT_MAX;
+    //cout << intMAX << endl;
+    // outputs the minimum negative value b/c datatype overflow works like a clock
+    //cout << intMax + 1;
 
 
     // need an empty space before system("pause>0");
