@@ -65,6 +65,16 @@ int main()
     // outputs the minimum negative value b/c datatype overflow works like a clock
     //cout << intMax + 1;
 
+    // ASCII notes and casting
+    cout << (int)'a' << endl; // casting operator - turns the letter into its ASCII number equivalent
+    cout << int('a') << endl;
+    cout << int('A') << endl;
+    cout << char(65) << endl;
+
+    //char c1; char c2; char c3; 
+    // easier way to create multiple variables of the same type
+    char c1, c2, c3, c4, c5;
+
 
     // need an empty space before system("pause>0");
     system("pause>0"); // gets rid of junk text which would appear without this line of code. Still, if you press a key, the junk code will appear. According to its instructions, you can press a key again to close the window
